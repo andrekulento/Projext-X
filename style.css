@@ -1,0 +1,35 @@
+body {
+    background-image: url('images/background.jpg')
+}
+
+.logo {
+    max-width: 200px;
+    max-height: 200px;
+    float: left;
+    display: inline-block;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.navigation {
+    display: inline-block;
+    margin-left: 10%;
+    text-align: right;
+
+}
+
+.navigation a {
+    padding: 70px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #f7a820;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-top: 30px;
+}
